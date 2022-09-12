@@ -1,0 +1,74 @@
+@import 'responsive.css';
+@import '_common.scss';
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a:hover {
+   //background-color: orchid;
+   background-color: rgb(11, 247, 247);
+}
+
+header {
+    background-color: rgb(44, 42, 42);
+    .contactdetails {
+        color: white;
+        float: left;
+        .contactdetails--mobileno {
+            color: white;
+            text-decoration: none;
+        }
+        .contactdetails--emailid {
+            color: white;
+            text-decoration: none;
+        }
+    }
+    .social {
+        float: right;
+        margin-right: 5rem;
+    }
+}
+
+.logo {
+    width: 30px;
+}
+
+.navabr {
+    margin-top: 1.8rem;
+}
+
+.logo {
+    width: 40px;
+}
+
+.collapse navbar-collapse {
+    float: right;
+}
+
+//start css sign in--
+
+.login {
+    min-height: 100vh;
+  }
+  
+  .bg-image {
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .login-heading {
+    font-weight: 300;
+  }
+  
+  .btn-login {
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    padding: 0.75rem 1rem;
+  }
+
+//end  css sign in
+
+//customer review start
+
+//customer review start
